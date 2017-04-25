@@ -6,10 +6,10 @@
 " ---------------------------------------------------------------------
 " Public Command:
 
-command -nargs=+ FlagIt :call s:FlagALine(<f-args>)
-command -nargs=* UnFlag :call s:UnFlag(<f-args>) "Do we really need to expose this?
-command FlagDemo :call FlagDemo()
-command FlagList :call FlagList()
+command! -nargs=+ FlagIt :call s:FlagALine(<f-args>)
+command! -nargs=* UnFlag :call s:UnFlag(<f-args>) "Do we really need to expose this?
+command! FlagDemo :call FlagDemo()
+command! FlagList :call FlagList()
 
 
 " ---------------------------------------------------------------------
